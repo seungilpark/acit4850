@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "super_sushi.dtd">
+
+<!--
+ 
+   Sample Sushi Restaurant menu file
+   ACIT 4850, Fall 2019
+   Assignment 2
+-->
+
+<menu restaurant_name="Super Sushi">
+    <section title="Drinks">
+        <item>
+            <name>Sake</name>
+            <price>7.50</price>
+        </item>
+        <item>
+            <name>Soft drinks</name>
+            <price>2.50</price>
+        </item>
+        <item>
+            <name>Beers</name>
+            <price>5.50</price>
+        </item>
+    </section>
+    <section title="Nigiri">
+        <item>
+            <name>Ebi</name>
+            <description>Shrimp</description>
+            <price>3.00</price>
+        </item>
+        <item>
+            <name>Unagi</name>
+            <description>Eel</description>
+            <price>4.00</price>
+        </item>
+        <item>
+            <name>Ahi</name>
+            <description>Tuna</description>
+            <price>3.00</price>
+        </item>
+    </section>
+</menu>

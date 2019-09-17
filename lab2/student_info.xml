@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student_info SYSTEM "studentinfo.dtd">
+<student_info status="part-time">
+    <name>Mickey Mouse</name>
+    <student_id>12345678</student_id>
+</student_infos>

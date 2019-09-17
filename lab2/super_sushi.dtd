@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT price (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT item (name, description?, price) >
+<!ELEMENT section (item)+ >
+<!ELEMENT menu (section)+>
+
+<!ATTLIST menu 
+    restaurant_name CDATA #REQUIRED
+>
+<!ATTLIST section 
+    title CDATA #REQUIRED
+>

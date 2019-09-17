@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT student_id (#PCDATA)>
+<!ELEMENT student_info (name, student_id)>
+<!-- <!ELEMENT student_info (name | student_id)*-->
+
+
+<!ATTLIST student_info 
+    status CDATA #REQUIRED 
+>
