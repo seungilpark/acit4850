@@ -1,0 +1,45 @@
+<!-- 
+    Seungil Park 
+    A01043367 
+    Editor Used = Visual Studio Code
+-->
+<Menu>
+    <Section name="Dessert">
+        <Header>DESSERT</Header>
+        <MenuItem type="dessert">
+            <MenuName >Yuzu Lime Bar</MenuName>
+            <MenuPrice justify="right">16</MenuPrice>
+            <Description>
+                Shortbread, Yuzu Lime Curd, Caramel Apple Sauce, Ginger Pear Sorbet
+            </Description>
+        </MenuItem>
+        <MenuItem type="dessert">
+            <MenuName>Calpico Carrot Cake</MenuName>
+            <MenuPrice justify="right">16</MenuPrice>
+            <Description>
+                Carrot Sponge, Marscapone Cream, Calpico Yogurt Sorbet
+            </Description>
+        </MenuItem>
+        <MenuItem type="dessert">
+            <MenuName>Caramel Soba Cha Brownie</MenuName>
+            <MenuPrice justify="right">17</MenuPrice>
+            <Description>
+                Brownie, Marscapone Cream, Milk Chocolate Cremeux, Caramel Soba Cha Gelato
+            </Description>
+        </MenuItem>
+        <MenuItem type="dessert">
+            <MenuName>Pineapple Coconut Cake</MenuName>
+            <MenuPrice justify="right">17</MenuPrice>
+            <Description>
+                Coconut Sponge, Vanilla Roasted Pineapple, Coconut Mousse, Shiro Goma Praline, Lemon Sorbet
+            </Description>
+        </MenuItem>
+        <MenuItem type="dessert">
+            <MenuName>Whisky Cappuccino</MenuName>
+            <MenuPrice justify="right">15</MenuPrice>
+            <Description>
+                Cardamom Cream, Toasted Cinnamon Crunch, Espresso Gelato, Whisky Foam
+            </Description>
+        </MenuItem>
+    </Section>
+</Menu>

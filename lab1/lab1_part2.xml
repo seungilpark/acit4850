@@ -1,0 +1,73 @@
+<!-- 
+    Seungil Park 
+    A01043367 
+    Editor Used = Visual Studio Code
+-->
+<Menu>
+    <Section name="Dessert">
+        <Header>DESSERT</Header>
+        <MenuItem type="dessert">
+            <MenuName >Yuzu Lime Bar</MenuName>
+            <MenuPrice justify="right">16</MenuPrice>
+            <Description>
+                Shortbread, Yuzu Lime Curd, Caramel Apple Sauce, Ginger Pear Sorbet
+            </Description>
+        </MenuItem>
+        <MenuItem type="dessert">
+            <MenuName>Calpico Carrot Cake</MenuName>
+            <MenuPrice justify="right">16</MenuPrice>
+            <Description>
+                Carrot Sponge, Marscapone Cream, Calpico Yogurt Sorbet
+            </Description>
+        </MenuItem>
+        <MenuItem type="dessert">
+            <MenuName>Caramel Soba Cha Brownie</MenuName>
+            <MenuPrice justify="right">17</MenuPrice>
+            <Description>
+                Brownie, Marscapone Cream, Milk Chocolate Cremeux, Caramel Soba Cha Gelato
+            </Description>
+        </MenuItem>
+        <MenuItem type="dessert">
+            <MenuName>Pineapple Coconut Cake</MenuName>
+            <MenuPrice justify="right">17</MenuPrice>
+            <Description>
+                Coconut Sponge, Vanilla Roasted Pineapple, Coconut Mousse, Shiro Goma Praline, Lemon Sorbet
+            </Description>
+        </MenuItem>
+        <MenuItem type="dessert">
+            <MenuName>Whisky Cappuccino</MenuName>
+            <MenuPrice justify="right">15</MenuPrice>
+            <Description>
+                Cardamom Cream, Toasted Cinnamon Crunch, Espresso Gelato, Whisky Foam
+            </Description>
+        </MenuItem>
+    </Section>
+    
+    <Section name="SushiRolls">
+        <Header>SUSHI ROLLS CONTINUE (HAND/CUT)*</Header>
+        <subHeading>Price per roll</subHeading>
+        <MenuItem type="roll">
+            <MenuName>Vegetable</MenuName>
+            <text justify="right">Hand </text><MenuPrice justify="right">7.75</MenuPrice>
+            <text justify="right">Cut </text><MenuPrice justify="right">9.75</MenuPrice>
+        </MenuItem>
+        <MenuItem type="roll">
+            <MenuName>Salmon Skin</MenuName>
+            <text justify="right">Hand </text><MenuPrice justify="right">9</MenuPrice>
+            <text justify="right">Cut </text><MenuPrice justify="right">12</MenuPrice>
+        </MenuItem>
+        <MenuItem type="roll">
+            <MenuName>Soft Shell Crab</MenuName>
+            <text justify="right">Cut </text><MenuPrice justify="right">20</MenuPrice>
+        </MenuItem>
+    </Section>
+
+    <Section name="DowntownRolls">
+        <Header>DOWNTOWN STYLE HANDROLLS*</Header>
+        <MenuItem type="roll">
+            <MenuName justify="center">Make your own Hand Rolls with Assorted Nigiri, Toasted Nori and sides of Uni, Cilantro, Jalapeno, Creamy Spicy Sauce, Marudaizu Soy, and Dry Miso</MenuName>
+            <MenuPrice justify="center">56</MenuPrice>
+        </MenuItem>
+    </Section>
+    
+</Menu>
