@@ -1,7 +1,4 @@
-1. to use XML, it must be 
-    parsed, 
-    processed, 
-    and/ or formatted
+1. XML is parsed (by parser), processed (by Processor), and/ or formatted (XSL or CSS)
 
 2. using XML allow separation of presenation / application
 
@@ -36,29 +33,65 @@
     - compatible with most processors
     - declarations
     - can be embed with XML / separate
+    
+    8.0. <!DOCTYPE student_info SYSTEM "studentinfo.dtd">
+    HTML seems to be a subset of XML!
+    miystery of !DOCTYPE solved ;) 
+
 
     8.1. Element declaration 
-    - e.g. <!ELEMENT $elname $contentmodel>
-        8.1.1. Common content model types
-            - specify what type is allowed as contents
-                text (#PCDATA) 
-                    - ()
-                    - #PCDATA indicates text? 
-                Mixed content (#PCDATA | el1 | el2 |le3)*
-                    - el1, el2, el3 being 
-                Element content(no text) {firstname, middlename?, lastname, birthdate, hobby+}
-                    - list of allowed child elements IN ORDER
-                    - suffix ? indicate it is optional
-                    - suffix + like regex, can be one or more
-                    - suffix * zero or more
-                Empty EMPTY without parenthesis (seems like constant)
-        8.1.2 Example of using content model
-        schema <!ELEMENT foo (a, (b|c), d)>
+    <!ELEMENT $elname $contentmodel>
+    
+    8.1.1. Common content model types
+        - specify what type is allowed as contents
+            text (#PCDATA) 
+                - ()
+                - #PCDATA indicates text? 
+            Mixed content (#PCDATA | el1 | el2 |le3)*
+                - el1, el2, el3 being 
+            Element content(no text) {firstname, middlename?, lastname, birthdate, hobby+}
+                - list of allowed child elements IN ORDER
+                - suffix ? indicate it is optional
+                - suffix + like regex, can be one or more
+                - suffix * zero or more
+            Empty EMPTY without parenthesis (seems like constant)
+    8.1.2 Example of using content model
+    schema <!ELEMENT foo (a, (b|c), d)>
         <foo>
             <a></a>
             <b></b>
             <d></d>
         </foo>
+    
+    
+    8.2. Attribute declaration
 
+    <!ATTLIST $elem_name 
+        att_name1 att_type is_required
+        att_name2 att_type is_required
+        att_name3 att_type is_required
+    >
+    - the three fields (name, type, bool) is required
+
+    8.2.1. Example of using !ATTLIST
+
+    ------------------------------------------
+    <!-- in studentinfo.dtd-->
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT student_id (#PCDATA)>
+    <!ELEMENT student_info (name, student_id)>
+    <!-- <!ELEMENT student_info (name | student_id)*-->
+    <!ATTLIST student_info 
+        status CDATA #REQUIRED 
+    >
+    above schema enforces / allows below XML
+    ------------------------------------------
+    <?xml version="1.0"?>
+    <!DOCTYPE student_info SYSTEM "studentinfo.dtd">
+    <student_info status="part-time">
+        <name>Mickey Mouse</name>
+        <student_id>12345678</student_id>
+    </student_infos>
+    ------------------------------------------
 
 

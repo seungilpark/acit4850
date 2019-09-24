@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cd_collection_01.xsl"?>
+
+<cd_collection owner="Navin R. Johnson">
+    <cd id="1234" type="album">
+        <artist>Blue Rodeo</artist>
+        <title>Outskirts</title>
+        <pubdate>1987</pubdate>
+    </cd>
+    <cd id="1235" type="album">
+        <artist>Blue Rodeo</artist>
+        <title>Diamond Mine</title>
+        <pubdate>1989</pubdate>
+    </cd>
+    <cd id="2334" type="album">
+        <artist>Blue Rodeo</artist>
+        <title>1000 Arms</title>
+        <pubdate>2016</pubdate>
+    </cd>
+    <cd id="3333" type="album">
+        <artist>Elvis Costello</artist>
+        <title>My Aim Is True</title>
+        <pubdate>1977</pubdate>
+    </cd>
+    <cd id="3344" type="album">
+        <artist>Elvis Costello</artist>
+        <title>This Year's Model</title>
+        <pubdate>1978</pubdate>
+    </cd>
+    <cd id="5555" type="soundtrack">
+        <artist>Various</artist>
+        <title>O Brother, Where Art Thou?</title>
+        <pubdate>2000</pubdate>
+    </cd>
+    <cd id="5566" type="soundtrack">
+        <artist>Various</artist>
+        <title>Sleepless in Seattle</title>
+        <pubdate>1993</pubdate>
+    </cd>
+    <cd id="7777" type="compilation">
+        <artist>Various</artist>
+        <title>KGSR Broadcasts</title>
+        <pubdate>1993</pubdate>
+    </cd>
+    <cd id="7778" type="compilation">
+        <artist>Various</artist>
+        <title>KGSR Broadcasts Vol. 2</title>
+        <pubdate>1994</pubdate>
+    </cd>
+    <cd id="7779" type="compilation">
+        <artist>Various</artist>
+        <title>KGSR Broadcasts Vol. 3</title>
+        <pubdate>1995</pubdate>
+    </cd>
+    <cd id="7780" type="compilation">
+        <artist>Various</artist>
+        <title>KGSR Broadcasts Vol. 4</title>
+        <pubdate>1996</pubdate>
+    </cd>
+    <cd id="7781" type="compilation">
+        <artist>Various</artist>
+        <title>KGSR Broadcasts Vol. 5</title>
+        <pubdate>1997</pubdate>
+    </cd>
+    <cd id="7782" type="compilation">
+        <artist>Various</artist>
+        <title>KGSR Broadcasts Vol. 6</title>
+        <pubdate>1998</pubdate>
+    </cd>
+</cd_collection>
+
